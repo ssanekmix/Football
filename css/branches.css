@@ -1,0 +1,49 @@
+.branches{
+    background-color: rgb(233, 233, 233);
+    height: 470px;
+    background: url('/assets/images/branch_bg.jpg') no-repeat;
+    background-size: cover;
+}
+.branches__container h3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.branches-item{
+    border: 1px solid blue;
+    width: 220px;
+    margin: 10px;
+    position: relative;
+    left: 20%;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(250, 243, 243);
+}
+.branches-item span {
+    font-weight: 600;
+}
+.branches-item:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)
+}
+.branches-item:hover::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -69px;
+    border-width: 35px;
+    border-style: solid;
+    border-color: transparent transparent transparent yellow;
+    transform: translateY(-50%);
+}
+.branches__container iframe {
+    height: 310px;
+    position: relative;
+    top: -320px;
+    left: 575px;
+    display: none;
+}
+.branches__container iframe:nth-of-type(1) {
+    display: block;
+}
