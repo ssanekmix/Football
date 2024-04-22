@@ -1,7 +1,7 @@
 .branches{
     background-color: rgb(233, 233, 233);
     height: 470px;
-    background: url('/assets/images/branch_bg.jpg') no-repeat;
+    background: url('../assets/images/branch_bg.jpg') no-repeat;
     background-size: cover;
 }
 .branches__container h3 {
