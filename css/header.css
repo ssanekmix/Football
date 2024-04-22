@@ -1,8 +1,7 @@
-
 .header{
-    background: url("/assets/images/logo.jpg") no-repeat;
-    background-size: cover;
     height: 550px;
+    background: url("../assets/images/headerbg.jpg") no-repeat;
+    background-size: cover;
 }
 .header__container{
     height: 300px;
